@@ -7,12 +7,15 @@
 ### 工具分类
 
 1. [fetchApi](./fetchApi)
-
-针对fetch的封装
+```
+针对fetch的封装，可以在项目中快速使用fetch，避免写重复代码。
+```
 
 2. [lazyLoad](./lazyLoad)
 
+```
 针对图片的预加载做了封装，用于快速获取图片对象
+```
 
 loading...中的工具
 
