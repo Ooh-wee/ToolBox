@@ -25,6 +25,11 @@
 
 loading...中的工具
 
+4. [ohCookie](./)
+
+```
+用于网页缓存的增删改查，用于快速操作cookie和localStorage，用起来像吃🍪一样yummy。
+```
 
 4. base64生成图片
 
