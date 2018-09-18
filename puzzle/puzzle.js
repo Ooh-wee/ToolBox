@@ -42,7 +42,6 @@
         })
 
         if(params.output){
-            
             reslove(can.toDataURL('image/jpeg'))
         } else {
             reslove()
