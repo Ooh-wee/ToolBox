@@ -30,7 +30,7 @@
 用于网页缓存的增删改查，用于快速操作cookie和localStorage，用起来像吃🍪一样yummy。
 ```
 
-5. [ohMongo](./)
+5. [ohMongo](./ohMongo)
 
 ```
 mongoose模块的辅助工具方法，有了ohMongo你可以少干点脏活累活，都8102年了你还在写重复代码？？？what f*ck？？？你还是个人吗？？？
