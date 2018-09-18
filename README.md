@@ -4,7 +4,7 @@
 
 ### 工具分类
 
-1. [fetch](./fetchApi)
+1. [fetchApi](./fetchApi)
 
 针对fetch的封装
 
