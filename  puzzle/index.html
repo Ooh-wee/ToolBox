@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width='1000' height='1000'></canvas>    
+</body>
+</html>
+<script src="puzzle.js"></script>
+<script src="lazyLoad.js"></script>
+<script>
+window.onload = async () => {
+    let res = await lazyLoad({
+        a: '01.png',
+        b: '02.png',
+        c: '03.png',
+    })
+
+console.log(res)
+
+    let outPut = await puzzle({
+        canvas: 'canvas',  // 可缺省
+        width: 1000, // 可缺省
+        height: 1000, // 可缺省
+        index: true,  // 可缺省
+        outPut: true, // 输出图片资源
+        imgs: [
+            {img: res.a, x: 0, y: 0, w: 100, h: 100, index: 10},
+            {img: res.b, x: 100, y: 100, w: 100, h: 100, index: 1},
+            {img: res.c, x: 200, y: 200, w: 100, h: 100, index: 2}
+        ]
+    })
+
+console.log(outPut)    
+}    
+</script>
