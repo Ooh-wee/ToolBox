@@ -17,7 +17,7 @@
 针对图片的预加载做了封装，用于快速获取图片对象
 ```
 
-3. [puzzle](./puzzle)
+3. [puzzle](https://github.com/Ooh-wee/ToolBox/tree/master/%20puzzle)
 
 ```
 用于canvas拼图，传图叠参，最后导出图片，方便得一笔，分分钟节约好几个小时的工作量。
