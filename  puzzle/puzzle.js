@@ -41,7 +41,7 @@
            pen.drawImage(v.img, 0, 0, v.img.width, v.img.height, v.x, v.y, v.w, v.h)
         })
 
-        if(params.outPut){
+        if(params.output){
             
             reslove(can.toDataURL('image/jpeg'))
         }
