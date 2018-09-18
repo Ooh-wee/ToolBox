@@ -25,7 +25,8 @@ let dealImg = async() => {
 let dealImg = async() => {
   let res = await lazyLoad({
       aaa: '1.jpg',
-      bbb: '2.png'
+      bbb: '2.png',
+      img: true
   })
 
   console.log(res)
