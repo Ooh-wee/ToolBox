@@ -10,7 +10,7 @@
 
 针对fetch的封装
 
-2. [lazyLoad](./图片对象的预加载)
+2. [lazyLoad](./lazyLoad)
 
 针对图片的预加载做了封装
 
