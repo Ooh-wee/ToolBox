@@ -19,7 +19,7 @@ let dealImg = async() => {
 //  打印结果 {aaa: img, bbb: img}
 ```
 
-2. 加载并收集图片对象
+2. 加载并收集图片地址
 
 ```
 let dealImg = async() => {
