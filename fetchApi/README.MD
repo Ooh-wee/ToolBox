@@ -6,27 +6,21 @@ fetchApi简单封装了fetch，使得fetch在使用起来更简单，主要利�
 
 ### 使用方式
 
-前端调用GET方式
+
+前端调用方式
 
 ```
-let getFun = async() => {
-    let res = await fetchApi({
-        url: 'https://www.apiopen.top/journalismApi', 
-    })
-    console.log(res)
-}
-```
+import fetchapi from './fetchApi'
 
-前端调用POST方式
-
-```
-let postFun = async (params = {}) => {
-    let res = await fetchApi({
-        url: 'https://www.apiopen.top/journalismApi', 
-        method: 'POST',
-        mode: 'cors',
-        body: JSON.stringfy(params)
-    })
-    console.log(res)
-}
+export let queryFineUser = async(params = {}) => 
+  await fetchapi({
+      url: 'http://127.0.0.1:3001/findUser',
+      headers: {
+        'Accept': 'application/json', 
+        'Content-Type': 'application/json'
+      },
+      method: 'POST',
+      mode: 'cors',
+      body: JSON.stringify(params)
+  })
 ```
