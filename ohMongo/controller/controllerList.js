@@ -1,7 +1,7 @@
 
 const {conn, model} = require('./ohMongo')
 
-let findList = async (type, name) => {
+let findUser = async (type, name) => {
     let conn_ = await conn();
     let model_ = model(conn_, type, name);
     return new Promise((reslove, reject) => {
@@ -19,5 +19,5 @@ let findList = async (type, name) => {
 
  
 module.exports = {
-    findList
+    findUser
 }   
